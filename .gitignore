@@ -1,0 +1,55 @@
+# ===== Môi trường ảo =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# ===== Dữ liệu, log, báo cáo (không push) =====
+data/
+logs/
+reports/
+
+# ===== Model / checkpoint / dữ liệu nặng =====
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.pkl
+*.npy
+*.npz
+*.zip
+*.tar
+*.tar.gz
+
+# ===== Ảnh và output sinh ra (nếu nằm ngoài data/) =====
+*.log
+outputs/
+runs/
+wandb/
+lightning_logs/
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+
+# ===== Hệ điều hành =====
+.DS_Store
+Thumbs.db
+desktop.ini
